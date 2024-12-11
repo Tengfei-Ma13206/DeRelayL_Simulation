@@ -1,7 +1,47 @@
 # DeRelayLearning
 Decentralizde Relay Learning: decentralized AI model training system using Blockchain
 
-# DeRelayL Simulation README
+
+# DeRelayL Simulation
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tengfei-Ma13206/DeRelayL_Simulation.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd DeRelayL_Simulation
+   ```
+3. Create a new conda environment:
+   ```bash
+   conda create -n DeRelayL python=3.10
+   ```
+4. Activate the conda environment:
+   ```bash
+   conda activate DeRelayL
+   ```
+5. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Run the Simulation
+
+1. Execute the following scripts (ensure that your current directory is still DeRelayL_Simulation):
+   ```bash
+   python simulation/simulation_version.py
+   python simulation/simulation_coin.py
+   ```
+
+2. After running the scripts, you will find two generated images in the directory `DeRelayL_Simulation/pic`.  
+   These images should be identical to the following files:
+   - `DeRelayL_Simulation/simulation/pic-coin/coins_per_participant_over_rounds.pdf`
+   - `DeRelayL_Simulation/simulation/pic-version/version_distribution_per_participant_over_rounds.pdf`
+
+Enjoy exploring the simulation results!
+
 
 ## Key Principles
 
