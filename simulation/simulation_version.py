@@ -7,7 +7,7 @@ import matplotlib.ticker as ticker
 import os
 import itertools
 
-# 设置随机数种子
+# set random seed
 seed = 42
 random.seed(seed)
 np.random.seed(seed)
