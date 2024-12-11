@@ -29,7 +29,7 @@ Decentralizde Relay Learning: decentralized AI model training system using Block
 
 ## Run the Simulation
 
-1. Execute the following scripts (ensure that your current directory is still DeRelayL_Simulation):
+1. Execute the following scripts (ensure that your current directory is still `DeRelayL_Simulation`):
    ```bash
    python simulation/simulation_version.py
    python simulation/simulation_coin.py
